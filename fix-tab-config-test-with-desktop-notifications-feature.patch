@@ -1,0 +1,15 @@
+diff --git a/crates/libtiny_tui/src/tests/config.rs b/crates/libtiny_tui/src/tests/config.rs
+index a93c006..b963289 100644
+--- a/crates/libtiny_tui/src/tests/config.rs
++++ b/crates/libtiny_tui/src/tests/config.rs
+@@ -70,8 +70,8 @@ fn parsing_tab_configs() {
+     assert_eq!(
+         tab_configs.get("server2", None),
+         Some(TabConfig {
+-            ignore: Some(true),                // configured
+-            notify: Some(Notifier::default())  // overwritten by defaults
++            ignore: Some(true),          // configured
++            notify: Some(Notifier::Off)  // overwritten by defaults
+         })
+     );
+ 

@@ -1,0 +1,5 @@
+*
+!.gitignore
+!PKGBUILD
+!.SRCINFO
+!fix-tab-config-test-with-desktop-notifications-feature.patch
